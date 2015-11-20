@@ -7,7 +7,7 @@ get '/' do
     #   :message => 'Welcome!',
     # }
     # return mainpage.to_json
-    erb: puppy
+    erb :puppy
 end
 
 get '/testpuppy' do
