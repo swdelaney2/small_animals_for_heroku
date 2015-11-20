@@ -2,11 +2,12 @@ require 'bundler'
 Bundler.require()
 
 get '/' do
-    mainpage = {
-      :name => 'Stephen\'s Cute Animals',
-      :message => 'Welcome!',
-    }
-    return mainpage.to_json
+    # mainpage = {
+    #   :name => 'Stephen\'s Cute Animals',
+    #   :message => 'Welcome!',
+    # }
+    # return mainpage.to_json
+    erb: puppy
 end
 
 get '/testpuppy' do
